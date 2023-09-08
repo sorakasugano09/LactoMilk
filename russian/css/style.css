@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Merriweather,sans-serif;
+    color: #000;
+    /* background-color: #000; */
+  }
+  ::selection {
+    background: #3d6039;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  span {
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
+}
+/* header */
+.header{
+  background-image: url(../img/cows\ eating.jpg);
+  background-size: cover;
+  height: 600px;
+  margin-bottom: 35px;
+}
+.header-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 10px;
+}
+.header-box img{
+  max-width: 150px;
+  max-height: 150px;
+}
+.header-box ul li{
+  display: inline-block;
+}
+/* products */
+.products-text{
+  text-align: center;
+}
+.products-text h1{
+  color: #171717;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.products-text hr{
+  background-color: #3d6039;
+  height: 1px;
+  max-width: 65px;
+  margin: auto;
+}
+.products-text p{
+  max-width:1200px;
+  font-size: 14px;
+  color: #171717;
+  font-weight: 100;
+  margin: 20px 0px;
+}
+.products-menu{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 20px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+.products-box-text h4{
+  color: #171717;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0px;
+}
+.products-box-text p{
+  font-size: 14px;
+  color: #171717;
+  font-weight: 100;
+}
+.products-box img{
+  max-width: 300px;
+  max-height: 300px;
+}
+/* cards */
+.cards{
+  background-color: #b5b5b5;
+  margin: 0px 0px 65px;
+}
+.cards-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 65px 0px;
+  gap: 20px;
+}
+.cards-box h3{
+  color: #171717;
+  font-family: Merriweather,sans-serif;
+  font-size: 24px;
+  line-height: 1.27em;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.cards-box hr{
+  background-color: #3d6039;
+  height: 1px;
+  max-width: 65px;
+  margin: auto;
+}
+.cards-box p{
+  font-size: 16px;
+  font-family: Roboto;
+  color: #737373;
+  font-weight: 300;
+  line-height: 1.73em;
+  margin-top: 20px;
+}
+/* benefits */
+.benefits-text{
+  margin: 100px 0px;
+}
+.benefits-text h1{
+  font-size: 35px;
+  color: #171717;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+.benefits-text h2{
+  font-size: 25px;
+  color: #171717;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.benefits-text p{
+  font-size: 16px;
+  font-family: Roboto;
+  color: #737373;
+  font-weight: 300;
+  line-height: 1.73em;
+}
+.benefits-text i{
+  font-size: 15px;
+  font-family: Roboto;
+  color: #737373;
+  font-weight: 400;
+}
+/* about */
+.about{
+  height: 100%;
+  background-color: #96c793;
+  background: 0.7;
+}
+.about-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0px;
+  gap: 40px;
+}
+.about-box video{
+  width: 100%;
+  height: 100%;
+}
+.about-box h2{
+  font-size: 35px;
+  color: #171717;
+  font-weight: 400;
+  margin: 35px 0px;
+}
+.about-box hr{
+  background-color: #3d6039;
+  height: 1px;
+  max-width: 65px;
+  margin-bottom: 35px;
+}
+.about-box p{
+  max-width: 490px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 1.73em;
+}
+/* Contact */
+.contact-menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 65px 0px;
+}
+.contact-box h2{
+  font-size: 35px;
+  color: #171717;
+  font-weight: 400;
+  margin: 25px 0px;
+}
+.contact-box hr{
+  background-color: #3d6039;
+  height: 1px;
+  max-width: 65px;
+  margin-bottom: 25px;
+}
+.contact-box h5{
+  font-size: 18px;
+  font-family: Roboto;
+  color: #737373;
+  font-weight: 300;
+  line-height: 1.73em;
+}
+.contact-box img{
+  max-width: 150px;
+  max-height: 150px;
+}
+.contact-box label{
+  font-size: 16px;
+  font-family: Roboto;
+  color: #737373;
+  font-weight: 300;
+  line-height: 1.73em;
+}
+.contact-box input{
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: text;
+  border: 1px solid #737373;
+}
+.contact-box textarea{
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: text;
+  border: 1px solid #737373;
+}
+.contact-box button{
+  color: #fff;
+  font-size: 18px;
+  background-color: #3d6039;
+  padding: 10px 65px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .brands-menu{
+    grid-template-columns: repeat(2 , 1fr);
+    justify-content: space-between;
+  }
+  .cards-menu{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .brands-menu{
+    grid-template-columns: repeat(1 , 1fr);
+    text-align: center;
+  }
+  .products-menu{
+    grid-template-columns: repeat(2 , 1fr);
+  }
+  .about-menu{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .products-menu{
+    grid-template-columns: repeat(1 , 1fr);
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-menu{
+    flex-direction: column;
+  }
+}
+
+
+
+
